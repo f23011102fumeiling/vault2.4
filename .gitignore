@@ -1,3 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-wheel-metadata/
+build/
+dist/
+
+# VSCode
+.vscode/
+
+# Node
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Mac
+.DS_Store
+
+# Environment
+.env
+*.env
+
+# Python caches
+.pytest_cache/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Uploads and large data
+uploads/
+backend/data/
+backend/data/**
+backend/app/static/course_documents/
+backend/data/chroma_db/
+
+# Database
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# Others
+.idea/
+.cache/
 # 项目 Git 忽略配置
 
 # 前端相关
